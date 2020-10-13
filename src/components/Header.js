@@ -1,18 +1,10 @@
-import React from "react";
-import { Link } from "react-router-dom";
-
-import Nav from "./Nav";
+import React from "react"
 
 function Header() {
   return (
-    <div className="header">
       <header>
-        
-          <h1 className="logo">contact: koranagan@gmail.com | 917.742.4400</h1>
-        
-        <Nav />
+           <img className='contact-info' src='../assets/content/contact_info.jpg'/>
       </header>
-    </div>
-  );
+  )
 }
 export default Header;
