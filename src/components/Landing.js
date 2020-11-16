@@ -16,7 +16,7 @@ export default function Landing() {
           </h1>
        <div className='project raj'>
          <h2>
-             RajivJayaweera.com
+             <a href='https://rajivjayaweera.com'>RajivJayaweera.com</a>
          </h2>
           <div className='screen-shots'>
              <div className='desktop'>
@@ -34,7 +34,7 @@ export default function Landing() {
 
        <div className='project aic'>
          <h2>
-             AIC-Photography-Collection.info
+         <a href='https://aic-photography-collection.info'>AIC-Photography-Collection.info</a>
          </h2>
           <div className='screen-shots'>
              <div className='desktop'>
@@ -45,10 +45,23 @@ export default function Landing() {
              </div>
           </div>
        </div>
+       <div className='project katarina'>
+         <h2>
+         <a href='https://katarina-olujic.netlify.app'>KatarinaOlujic.com</a>
+         </h2>
+          <div className='screen-shots'>
+             <div className='desktop'>
+               <img src='../assets/screen_shots/ko1.png'/>
+               <img src='../assets/screen_shots/ko2.png'/>
+             </div>
+             <div className='mobile'>
+             </div>
+          </div>
+       </div>
 
        <div className='project dom'>
          <h2>
-             DominiqueCarre.fr
+        DominiqueCarre.fr
          </h2>
          <div className='screen-shots'>
             <div className='desktop'>
