@@ -42,6 +42,9 @@ export default function Landing() {
                <img src='../assets/screen_shots/aic_desktop1.jpg'/>
              </div>
              <div className='mobile'>
+             <img id='tablet' src='../assets/screen_shots/aic_tablet.png'/>
+               <img src='../assets/screen_shots/aic_mobile.png'/>
+               <img src='../assets/screen_shots/aic_mobile2.png'/>
              </div>
           </div>
        </div>
@@ -78,9 +81,8 @@ export default function Landing() {
        <div className="logos">
          <img src="../assets/three.png"></img>
          <img src="../assets/reactJS.png"></img>
-         <img src="../assets/mongoDB.webp"></img>
+         <img src="../assets/nodeAndExpress.png"></img>
          <img src="../assets/postgresql.png"></img>
-         <img src="../assets/RubyR.jpeg"></img>
       </div>
        
   </div>
