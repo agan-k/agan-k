@@ -67,6 +67,10 @@ header {
 .landing h2 {
   text-align: center;
 }
+.landing h3 {
+  color: black;
+  font-size: 1em;
+}
 .project {
    height: min-content;
    padding: 1% 0;
@@ -112,6 +116,29 @@ header {
    width: 12%;
    margin: 1em;
 }
+
+.logos.small {
+   justify-content: center;
+   padding: 0;
+  }
+.logos.small img {
+   height: 3em;
+  }
+
+/* .github-logo img {
+   height: 50px;
+  } */
+.github-logo img {
+     height: 50px;
+     opacity: .7;
+     border: none;
+     transition: .6s;
+  }
+.github-logo img:hover {
+     height: 55px;
+     opacity: 1;
+     border: .1px solid rgba(0, 0, 255, 0.514);
+  }
 .logos {
    display: flex;
    justify-content: space-evenly;
@@ -120,7 +147,7 @@ header {
    opacity: .8;
   }
   .logos img {
-   height: 7em;
+   height: 3em;
   }
   /* ======== FOOTER ========= */
 
